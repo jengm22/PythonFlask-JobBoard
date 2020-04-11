@@ -1,7 +1,6 @@
-import flask
-from flask import render_template
+from flask import Flask, render_template
 
-app = flask.Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 @app.route('/jobs')
